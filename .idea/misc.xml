@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="enabledOnReformat" value="true" />
+    <option name="pathToExecutable" value="/opt/anaconda3/bin/black" />
+    <option name="sdkName" value="Python 3.12 (harry-potter-graphrag-hebrew)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="harry-potter-graphrag-hebrew" project-jdk-type="Python SDK" />
+</project>

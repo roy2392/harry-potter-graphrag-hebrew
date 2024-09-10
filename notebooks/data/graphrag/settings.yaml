@@ -1,0 +1,59 @@
+async_mode: threaded
+cache:
+  base_dir: cache
+  type: file
+chunks:
+  group_by_columns:
+  - id
+  overlap: 100
+  size: 300
+claim_extraction:
+  description: Any claims or facts that could be relevant to information discovery.
+  max_gleanings: 0
+  prompt: prompts/claim_extraction.txt
+cluster_graph:
+  max_cluster_size: 10
+community_report:
+  max_input_length: 8000
+  max_length: 2000
+  prompt: prompts/community_report.txt
+embed_graph:
+  enabled: false
+embeddings:
+  async_mode: threaded
+  llm:
+    api_base: http://localhost:1234/v1
+    api_key: ${GRAPHRAG_API_KEY}
+    model: nomic-ai/nomic-embed-text-v1.5-GGUF/nomic-embed-text-v1.5.Q5_K_M.gguf
+    type: openai_embedding
+encoding_model: cl100k_base
+entity_extraction:
+  entity_types:
+  - "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA"
+  - "\u05D7\u05E4\u05E6\u05D9\u05DD"
+  - "\u05E7\u05E1\u05D5\u05DE\u05D9\u05DD"
+  - "\u05DE\u05E7\u05D5\u05DE\u05D5\u05EA"
+  - "\u05D0\u05D9\u05E8\u05D5\u05E2\u05D9\u05DD"
+  - "\u05DE\u05D5\u05E1\u05D3\u05D5\u05EA"
+  max_gleanings: 0
+  prompt: prompts/entity_extraction_hebrew.txt
+input:
+  base_dir: input
+  file_encoding: utf-8
+  file_pattern: .*\.txt$
+  file_type: text
+  type: file
+llm:
+  api_base: http://localhost:11434/v1
+  api_key: ${GRAPHRAG_API_KEY}
+  max_tokens: 5000
+  model: gemma2
+  model_supports_json: true
+  request_timeout: 180.0
+  type: openai_chat
+parallelization:
+  stagger: 0.3
+skip_workflows: []
+summarize_descriptions:
+  max_length: 500
+  prompt: prompts/summarize_descriptions.txt

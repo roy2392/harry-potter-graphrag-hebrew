@@ -1,0 +1,48 @@
+encoding_model: cl100k_base
+skip_workflows: []
+llm:
+  api_key: ${GRAPHRAG_API_KEY}
+  type: openai_chat
+  model: gpt-4o-mini
+  model_supports_json: true
+  request_timeout: 600000.0  # Increased to prevent timeouts
+
+parallelization:
+  stagger: 0.2
+  async_mode: threaded
+
+embeddings:
+  async_mode: threaded
+  llm:
+    api_key: ${GRAPHRAG_API_KEY}
+    type: openai_embedding
+    model: text-embedding-3-small
+
+chunks:
+  size: 1000
+  overlap: 50
+  group_by_columns: [id]
+
+input:
+  type: file
+  file_type: text
+  base_dir: "input"
+  file_encoding: utf-8
+  file_pattern: ".*\\.txt$"
+
+cache:
+  type: file
+  base_dir: "cache_new"  # Clear cache by using a new folder
+
+storage:
+  type: file
+  base_dir: "output/${timestamp}/artifacts"
+
+reporting:
+  type: file
+  base_dir: "output/${timestamp}/reports"
+
+entity_extraction:
+  prompt: "prompts/entity_extraction_hebrew.txt"  # This should be a valid file path.
+  entity_types: [דמויות, חפצים קסומים, מקומות, אירועים, מוסדות]
+  max_gleanings: 2
