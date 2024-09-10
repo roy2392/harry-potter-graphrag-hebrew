@@ -5,7 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c1869b-0db8-484a-bcaf-0f172c8f7897" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/app/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/app/classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/app/scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/app/vector_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/tests/test_classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/tests/test_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/tests/test_scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webclassify/tests/test_vector_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIC-Bell-DNS-2021-ML/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CIC-Bell-DNS-2021-ML/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Job-Prep" beforeDir="false" afterPath="$PROJECT_DIR$/../Job-Prep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../github-demo-1" beforeDir="false" afterPath="$PROJECT_DIR$/../github-demo-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../llm-twin/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../llm-twin/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localllama-db-chat/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localllama-db-chat/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localllama-db-chat/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localllama-db-chat/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localllama-db-chat/localllama_db_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/localllama_db_chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localllama-db-chat/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../localllama-db-chat/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ml_portfolio" beforeDir="false" afterPath="$PROJECT_DIR$/../ml_portfolio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resume_llm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../roy2392.github.io" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -26,7 +60,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -39,32 +73,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.graphrag_import_neo4j_cypher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pdf_converter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wiki_to_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wikipedia_api_request.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/royzalta/Documents/github-local/harry-potter-graphrag-hebrew/notebooks/data/graphrag/prompts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.graphrag_import_neo4j_cypher.executor": "Run",
+    "Python.pdf_converter.executor": "Run",
+    "Python.wiki_to_text.executor": "Run",
+    "Python.wikipedia_api_request.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/royzalta/Documents/github-local/harry-potter-graphrag-hebrew/notebooks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notebooks" />
       <recent name="$PROJECT_DIR$/notebooks/data/graphrag/prompts" />
       <recent name="$PROJECT_DIR$/notebooks/data/graphrag/input" />
       <recent name="$PROJECT_DIR$/rag/input" />
       <recent name="$PROJECT_DIR$/data/raw" />
-      <recent name="$PROJECT_DIR$/src/rag/input" />
     </key>
   </component>
   <component name="SharedIndexes">
