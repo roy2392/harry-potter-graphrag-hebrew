@@ -45,7 +45,7 @@ app.add_middleware(
 
 # Load environment variables
 llm_model = settings.GRAPHRAG_LLM_MODEL
-llm_api_base = settings.LLM_NODEL_API_BASE
+llm_api_base = settings.LLM_MODEL_API_BASE
 embedding_model = settings.GRAPHRAG_EMBEDDING_MODEL
 embedding_api_base = settings.EMBEDDING_MODEL_API_BASE
 claim_extraction_enabled = settings.GRAPHRAG_CLAIM_EXTRACTION_ENABLED

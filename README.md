@@ -131,15 +131,27 @@ To run the notebook, execute the following command:
 ```bash
 jupyter notebook notebooks/txt_to_graphrag.ipynb
 ```
-7. Run Docker-compose & chat with the API using the Streamlit app
-make sure you have the following installed and running: 
-    •	docker desktop
-    •	LM Studio with the model: RinaChen/nomic-embed-text-v1.5-Q4_K_M-GGUF/nomic-embed-text-v1.5-q4_k_m.gguf
-    •	ollama with the model: llama3:8b
-then all you need to do is to run:
+## Notes
+
+- Make sure Ollama is running and accessible at `http://localhost:11434` before starting the application.
+- Make sure LM Studio is running and accessible at `http://localhost:1234` before starting the application.
+
+7. install the app requirements:
 ```bash
-docker-compose up --build
+pip install -r app/app_requirements.txt
 ```
+8. Running the Application - Open two terminal windows or tabs.
+In the first terminal, start the API server:
+```bash
+cd app
+python api_ollama.py
+```
+In the second terminal, start the Streamlit app:
+```bash
+cd app
+streamlit run chat.py
+```
+
 and then you can chat with the API using the Streamlit app at: http://localhost:8501
 additionally, you can run the following command to run the API locally at : http://127.0.0.1:8000/docs
 

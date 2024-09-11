@@ -1,5 +1,5 @@
 GRAPHRAG_LLM_MODEL: llama3
-LLM_NODEL_API_BASE: http://localhost:11434/v1
+LLM_MODEL_API_BASE: http://localhost:11434/v1
 GRAPHRAG_EMBEDDING_MODEL: nomic-ai/nomic-embed-text-v1.5-GGUF/nomic-embed-text-v1.5.Q5_K_M.gguf
 EMBEDDING_MODEL_API_BASE: http://localhost:1234/v1
 GRAPHRAG_CLAIM_EXTRACTION_ENABLED: False

@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     INPUT_DIR: str
     COMMUNITY_LEVEL: int
     GRAPHRAG_API_KEY: str
-    LLM_NODEL_API_BASE: str
+    LLM_MODEL_API_BASE: str
     EMBEDDING_MODEL_API_BASE: str
     
     class Config:

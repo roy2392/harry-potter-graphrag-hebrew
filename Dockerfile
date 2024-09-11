@@ -24,13 +24,11 @@ RUN pip install --upgrade pip && \
 # Copy the application code
 COPY ./app /app
 
-# Use an entrypoint script to handle environment variables
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-
 # Set PYTHONPATH
 ENV PYTHONPATH=/app:$PYTHONPATH
 
-ENTRYPOINT ["/entrypoint.sh"]
+# Expose ports
+EXPOSE 8000 8501
 
-CMD python api_ollama.py & streamlit run chat.py
+# Command to run the applications
+CMD ["sh", "-c", "sleep 10 && uvicorn api_ollama:app --host 0.0.0.0 --port 8000 & streamlit run chat.py --server.port 8501 --server.address 0.0.0.0"]
