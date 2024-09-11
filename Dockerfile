@@ -33,4 +33,4 @@ ENV PYTHONPATH=/app:$PYTHONPATH
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD python api_ollama.py & streamlit run chat.py

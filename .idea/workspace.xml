@@ -87,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindow.Terminal.ShowToolbar": "false",
     "git-widget-placeholder": "feature/ollama",
-    "last_opened_file_path": "/Users/royzalta/Documents/github-local/harry-potter-graphrag-hebrew/app",
+    "last_opened_file_path": "/Users/royzalta/Documents/github-local/harry-potter-graphrag-hebrew/media",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,9 +99,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/inputs" />
-      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/notebooks" />
       <recent name="$PROJECT_DIR$/notebooks/data/graphrag/prompts" />
     </key>

@@ -6,6 +6,8 @@
 
 This project focuses on extracting entities and their relationships from Hebrew text, specifically using a portion of the Harry Potter story. The goal is to use NLP techniques to identify entities such as characters, magical objects, places, events, and institutions from a given Hebrew text and to analyze relationships between those entities. The data is then stored in a Neo4j graph database for further analysis.
 
+<img src="media/app_screenshot.png" alt="chat ui" width="600"/>
+
 ## Project Stages
 ```mermaid
 graph TD
@@ -125,19 +127,21 @@ To run the notebook, execute the following command:
 ```bash
 jupyter notebook notebooks/txt_to_graphrag.ipynb
 ```
-7. to run the chatbot - run the following command (make sure you move the parquet file from GraphRAG TO app/inputs directory):
-   • go to the app directory:
-      ``` cd app```
-    • Build the Docker image:
-     ```docker build -t streamlit-graphrag-app .```
-    • Run the container with a volume mount:
-        ```docker run -p 8501:8501 \
-  -v /path/on/host/to/inputs:/app/inputs \
-  -e GROQ_API_KEY=your_groq_api_key \
-  -e GRAPHRAG_API_KEY=your_graphrag_api_key \
-  streamlit-graphrag-app```   
-   Replace /path/on/host/to/inputs with the actual path on your host machine where your parquet files are stored.
+7. Run Docker-compose & chat with the API using the Streamlit app
+make sure you have the following installed and running: 
+    •	docker desktop
+    •	LM Studio with the model: RinaChen/nomic-embed-text-v1.5-Q4_K_M-GGUF/nomic-embed-text-v1.5-q4_k_m.gguf
+    •	ollama with the model: llama3:8b
+then all you need to do is to run:
+```bash
+docker-compose up --build
+```
+and then you can chat with the API using the Streamlit app at: http://localhost:8501
+additionally, you can run the following command to run the API locally at : http://127.0.0.1:8000/docs
 
+## Graph Visualisation
+after running the container you can see the graph visualisation at [GraphRAG Visualizer](https://noworneverev.github.io/graphrag-visualizer/)
+<img src="media/graphviz.png" alt="graph viz" width="600"/>
 
 ## Prompts
 The prompts directory contains the text prompts used for entity extraction via NLP models. The entity_extraction_hebrew.txt prompt extracts entities and relationships from Hebrew text, which are then parsed and stored in the Parquet files.

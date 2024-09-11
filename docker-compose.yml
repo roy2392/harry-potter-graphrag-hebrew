@@ -5,13 +5,16 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
+      - "8501:8501"
     volumes:
       - ./app:/app
     env_file:
       - .env
     environment:
       - PYTHONPATH=/app
-    command: uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+    command: >
+      sh -c "python api_ollama.py &
+             streamlit run chat.py --server.port 8501 --server.address 0.0.0.0"
 
 volumes:
   app:

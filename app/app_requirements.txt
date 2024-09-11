@@ -2,3 +2,8 @@ graphrag
 fastapi
 uvicorn
 pydantic-settings
+requests
+pillow
+ollama
+streamlit==1.27.0
+altair==4.2.2
