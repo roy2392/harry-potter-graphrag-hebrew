@@ -1,5 +1,7 @@
 # Harry Potter Hebrew Project with GraphRAG - Entity Extraction and Relationship Analysis
+
 ![Harry Potter](media/Vibrant Whimsical Group Illustration.jpg)
+
 ## Overview
 
 This project focuses on extracting entities and their relationships from Hebrew text, specifically using a portion of the Harry Potter story. The goal is to use NLP techniques to identify entities such as characters, magical objects, places, events, and institutions from a given Hebrew text and to analyze relationships between those entities. The data is then stored in a Neo4j graph database for further analysis.
