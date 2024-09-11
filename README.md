@@ -20,35 +20,39 @@ graph TD
 
 ```bash
 .
-├── README.md                   # Project documentation
-├── app                         # Streamlit app directory
-│   ├── Dockerfile              # Dockerfile for hosting the app
-│   ├── api.py                  # Main app script
-│   ├── app_requirements.txt    # App-specific dependencies
-│   └── inputs                  # Inputs for the app
-├── config                      # Configuration files
-│   └── __init__.py             
-├── data                        # Data folder containing processed text files
-│   └── processed
-│       ├── graphrag_input.txt  # Concise summary generated from books
-│       ├── harry_potter1.txt   # Book 1 text file
-│       ├── harry_potter2.txt   # Book 2 text file
-│       ├── harry_potter3.txt   # Book 3 text file
-│       ├── harry_potter4.txt   # Book 4 text file
-│       ├── harry_potter5.txt   # Book 5 text file
-│       ├── harry_potter6.txt   # Book 6 text file
-│       └── harry_potter7.txt   # Book 7 text file
-├── notebooks                   # Jupyter notebooks for experimentation
-│   ├── graphrah_to_neo4j.ipynb # GraphRAG to Neo4j notebook
-│   └── txt_to_graphrag.ipynb   # Text to GraphRAG processing notebook
-├── requirements.txt            # General project dependencies
-├── src                         # Source code
-│   ├── api.py                  # Main app script
-│   ├── data_processing          # Data processing utilities
-│   │   ├── scraper.py          # Scraping script for Harry Potter fandom
-│   │   └── wikipedia_api_request.py # Script for API requests
-│   └── graphrag_import_neo4j_cypher.py # Script to import data into Neo4j
-└── tests                       # Test scripts
+├── app/                             # Main application folder
+│   ├── api_ollama.py                # Ollama API wrapper
+│   ├── app_requirements.txt         # Application-specific dependencies
+│   ├── chat.py                      # Chat functionality for the app
+│   ├── constants.py                 # Constants used across the app
+│   ├── hogwarts_logo.png            # Hogwarts-themed logo for the app
+│   ├── ollama_wrapper.py            # Wrapper for the Ollama LLM API
+│   ├── settings.py                  # Configuration settings for the app
+│   └── inputs/                      # Input data for the app (parquet files)
+│       ├── create_final_entities.parquet
+│       ├── create_final_relationships.parquet
+│       └── lancedb/                 # LanceDB database for embeddings
+├── data/                            # Data folder
+│   └── processed/                   # Processed Harry Potter summaries
+│       ├── harry_potter1.txt
+│       ├── harry_potter2.txt
+│       ├── graphrag_input.txt
+├── media/                           # Media assets
+│   ├── app_screenshot.png           # Screenshot of the application UI
+│   ├── hogwarts_logo.png            # Hogwarts logo for branding
+├── notebooks/                       # Jupyter notebooks for data exploration
+│   ├── graphrah_to_neo4j.ipynb      # GraphRAG to Neo4j conversion
+│   └── txt_to_graphrag.ipynb        # TXT to GraphRAG conversion process
+├── src/                             # Source code for utilities and data processing
+│   ├── app.py                       # Main app entry point for the project
+│   └── data_processing/             # Data processing scripts
+│       ├── scraper.py               # Wikipedia scraper
+│       └── wiki_to_text.py          # Convert Wikipedia content to text
+├── Dockerfile                       # Docker setup for the app
+├── docker-compose.yml               # Docker Compose for multi-container setup
+├── README.md                        # Project documentation (this file)
+├── requirements.txt                 # Project dependencies
+└── tests/                           # Unit tests for the project
     └── __init__.py
 ```
 
