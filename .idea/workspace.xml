@@ -50,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Dockerfile" />
         <option value="Python Script" />
       </list>
     </option>
@@ -57,6 +58,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
@@ -76,13 +78,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Unnamed.executor": "Run",
+    "Python.app.executor": "Run",
     "Python.graphrag_import_neo4j_cypher.executor": "Run",
     "Python.pdf_converter.executor": "Run",
     "Python.wiki_to_text.executor": "Run",
     "Python.wikipedia_api_request.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/royzalta/Documents/github-local/harry-potter-graphrag-hebrew/notebooks",
+    "ToolWindow.Terminal.ShowToolbar": "false",
+    "git-widget-placeholder": "feature/ollama",
+    "last_opened_file_path": "/Users/royzalta/Documents/github-local/harry-potter-graphrag-hebrew/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,11 +99,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/inputs" />
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/notebooks" />
       <recent name="$PROJECT_DIR$/notebooks/data/graphrag/prompts" />
-      <recent name="$PROJECT_DIR$/notebooks/data/graphrag/input" />
-      <recent name="$PROJECT_DIR$/rag/input" />
-      <recent name="$PROJECT_DIR$/data/raw" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -131,8 +139,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/harry_potter_graphrag_hebrew$graphrag_import_neo4j_cypher.coverage" NAME="graphrag_import_neo4j_cypher Coverage Results" MODIFIED="1725649964213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/harry_potter_graphrag_hebrew$pdf_converter.coverage" NAME="pdf_converter Coverage Results" MODIFIED="1725690335024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_processing" />
     <SUITE FILE_PATH="coverage/harry_potter_graphrag_hebrew$wiki_to_text.coverage" NAME="wiki_to_text Coverage Results" MODIFIED="1725628582274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_processing" />
+    <SUITE FILE_PATH="coverage/harry_potter_graphrag_hebrew$app.coverage" NAME="app Coverage Results" MODIFIED="1726068894024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/harry_potter_graphrag_hebrew$pdf_converter.coverage" NAME="pdf_converter Coverage Results" MODIFIED="1725690335024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_processing" />
     <SUITE FILE_PATH="coverage/harry_potter_graphrag_hebrew$wikipedia_api_request.coverage" NAME="wikipedia_api_request Coverage Results" MODIFIED="1725631819017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_processing" />
   </component>
 </project>

@@ -29,12 +29,9 @@ embeddings:
 encoding_model: cl100k_base
 entity_extraction:
   entity_types:
-  - "\u05D3\u05DE\u05D5\u05D9\u05D5\u05EA"
-  - "\u05D7\u05E4\u05E6\u05D9\u05DD"
-  - "\u05E7\u05E1\u05D5\u05DE\u05D9\u05DD"
-  - "\u05DE\u05E7\u05D5\u05DE\u05D5\u05EA"
-  - "\u05D0\u05D9\u05E8\u05D5\u05E2\u05D9\u05DD"
-  - "\u05DE\u05D5\u05E1\u05D3\u05D5\u05EA"
+  - person
+  - geo
+  - event
   max_gleanings: 0
   prompt: prompts/entity_extraction_hebrew.txt
 input:
@@ -47,13 +44,17 @@ llm:
   api_base: http://localhost:11434/v1
   api_key: ${GRAPHRAG_API_KEY}
   max_tokens: 5000
-  model: gemma2
+  model: llama3
   model_supports_json: true
   request_timeout: 180.0
   type: openai_chat
 parallelization:
   stagger: 0.3
 skip_workflows: []
+snapshots:
+  graphml: 'yes'
+  raw_entities: 'yes'
+  top_level_nodes: 'yes'
 summarize_descriptions:
   max_length: 500
   prompt: prompts/summarize_descriptions.txt

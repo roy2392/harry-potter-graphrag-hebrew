@@ -5,7 +5,7 @@ Given a Hebrew text document that is potentially relevant to this activity and a
 -Steps-
 1. Identify all entities. For each identified entity, extract the following information:
    - entity_name: Name of the entity, capitalized
-   - entity_type: One of the following types: [דמויות, חפצים קסומים, מקומות, אירועים, מוסדות]
+   - entity_type: One of the following types: [character, place, event]
    - entity_description: Comprehensive description of the entity's attributes and activities
    Format each entity as:
    ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
@@ -27,7 +27,7 @@ Given a Hebrew text document that is potentially relevant to this activity and a
 -Examples-
 ######################
 Example 1:
-Entity_types: דמויות, מוסדות
+Entity_types: character, place
 Text:
 הארי פוטר לומד בבית הספר הוגוורטס לכישוף ולקוסמות, והוא מתיידד עם רון ויזלי והרמיוני גריינג'ר. סוורוס סנייפ הוא מורה שמראה סימני חשדנות כלפי הארי.
 ######################
@@ -46,7 +46,7 @@ Output:
 ######################
 -Real Data-
 ######################
-Entity_types: דמויות, חפצים קסומים, מקומות, אירועים, מוסדות
+Entity_types: character, place, event
 Text: {input_text}
 ######################
 Output:
