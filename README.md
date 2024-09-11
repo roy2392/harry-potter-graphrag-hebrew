@@ -1,6 +1,6 @@
 # Harry Potter Hebrew Project with GraphRAG - Entity Extraction and Relationship Analysis
 
-![Harry Potter](media/Vibrant Whimsical Group Illustration.jpg)
+<img src="media/Vibrant Whimsical Group Illustration.jpg" alt="Harry Potter Example" width="400"/>
 
 ## Overview
 
