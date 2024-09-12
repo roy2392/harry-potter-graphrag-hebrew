@@ -2,6 +2,10 @@ import streamlit as st
 import requests
 import json
 from PIL import Image
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
 
 # Set page config
 st.set_page_config(page_title="Hogwarts Knowledge Seeker", page_icon="🧙‍♂️", layout="wide")
@@ -55,7 +59,8 @@ if st.button("Seek Knowledge"):
             result = response.json()
             
             # Extract and display the answer
-            answer = json.loads(result['response'])['choices'][0]['message']['content']
+            answer = result['response']
+            
             st.markdown("### 📜 The Ancient Texts Reveal:")
             st.write(answer)
             
@@ -67,6 +72,13 @@ if st.button("Seek Knowledge"):
         
         except requests.RequestException as e:
             st.error(f"Alas! The owls couldn't deliver your message. Error: {e}")
+            logging.error(f"Request error: {str(e)}")
+        except KeyError as e:
+            st.error(f"An unexpected error occurred: {str(e)}")
+            logging.error(f"KeyError in response: {str(e)}, Response: {result}")
+        except Exception as e:
+            st.error(f"An unexpected error occurred: {str(e)}")
+            logging.error(f"Unexpected error: {str(e)}")
     else:
         st.warning("Please enter a question, young wizard!")
 

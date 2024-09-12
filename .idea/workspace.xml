@@ -5,6 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c1869b-0db8-484a-bcaf-0f172c8f7897" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/global_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/56-e504686d-24bc-4454-8747-bad4506d6df0.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/57-27e21e7a-5678-4706-961e-1268b0cc710d.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/58-1a9a0c9e-8da1-4979-82e8-0a9ca120c5e9.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/59-7a54e2f4-8475-479d-91f7-f8b0f20b224c.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/60-78d7f6d1-eaed-47dc-8362-9fd5f4d64899.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/61-852a8af5-976c-49ce-a178-1e7259f21528.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/62-b3267b70-132a-4c98-8b41-75894ddaca7f.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/63-09a9fef3-1b94-4429-93ab-4661158868a1.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/64-1d754a39-aa05-4f21-92c3-e8384dbbc3b5.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/65-e8365e5b-63da-4382-b325-d039c034d22f.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/66-0ef9374e-d22d-4406-9a03-c8948c44b63c.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/67-dd297ff9-3879-45ab-b9d5-61509d3380d3.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/68-2cacefb1-e89f-4fe7-b0e7-1425463c7ece.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/69-3aa3b63e-355d-469d-b648-4ddf26d93116.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/70-88090657-b57c-4b72-bc20-71a019c8319d.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/71-7e290e73-b281-4471-bb7c-d7302f26b9a7.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/72-119262c5-86fc-45d8-971c-8d396195e562.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/73-087b9add-0451-4eee-9636-53a94d3beb14.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/74-1440a705-480b-40d1-a6d5-5ca0fd8541d1.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/75-8343def3-9a46-40ac-92dd-3e03eea88bf7.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/76-f04cb229-f2b1-4a7c-83c2-f99628840a81.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/77-e792d0b8-fe85-48d2-b5b6-a897bced8328.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/78-3b122203-3890-4f7b-b78a-8b94df5b76f2.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/79-ea7b87cd-2cea-4d43-91af-3d1c7e58d9fb.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/80-c0bde877-9cc6-4878-9d0e-421e926ac9b7.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/81-9910aeab-4c2e-476d-bf96-6ab177f57cec.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/82-46fc591b-1cc9-45a5-a504-030a2b9ae62f.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/83-55a5c8d7-7d0b-406c-82fd-c052a8ad9f4e.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/84-32fc0ced-f577-4f43-9b6c-a23d3d01ae4c.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/85-995898bd-f139-409f-85e0-048dc0c01d48.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/86-e5d5efe5-8f15-467d-9d1c-fcd6d41b923e.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/_transactions/87-611ce825-923f-4148-bf19-d6ae9642406c.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/0c16ec41-4d60-458f-ac25-5536295c6b30.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/298680c3-7681-418c-a3d4-16e53f47e88a.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/4828bfcd-db58-46f4-b1dd-58b6d1deb496.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/59ad6b61-1bc0-4495-b550-6fe329cf53ad.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/5adc057d-e03e-4084-9bf6-b0ef913804c5.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/63d4d564-f512-4a17-b2e1-c6d7265b24ad.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/8276b837-0892-45d5-9783-1b7068cf87fa.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/892811a9-0935-4c28-aa41-e9028ed7cf81.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/967d4f82-36e5-4884-ac2f-8f8915a54439.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/ac1c6bce-0d0a-4395-863a-db3dc2e2a3f1.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/d001f0f9-3668-4386-bc04-7d625941d804.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/d0a848a2-7c6a-4fe8-850c-c4431d6c8185.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/d28063fb-c1fc-4ef5-91e5-21e43e36c71c.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/e1b6be55-2e7d-41d0-b0ea-75e7a423e08d.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/f6ff5e5a-a078-4c68-b1a0-a31d8a8addfd.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/inputs/lancedb/entity_description_embeddings.lance/data/ff6ab7b1-ddd9-47eb-a4f2-9b0e2f824d06.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/local_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/chat_global_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/chat_local_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/data/graphrag/output/20240911-163559/artifacts/lancedb/entity_description_embeddings.lance/_transactions/4-6e049370-98f6-45cb-8475-d2b483d5e8c0.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/data/graphrag/output/20240911-163559/artifacts/lancedb/entity_description_embeddings.lance/_transactions/5-c668dc4d-05be-4bfd-9317-8b7a8b66d827.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/data/graphrag/output/20240911-163559/artifacts/lancedb/entity_description_embeddings.lance/_transactions/6-f05f929c-7b09-4d43-abf7-859b3b81e102.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/data/graphrag/output/20240911-163559/artifacts/lancedb/entity_description_embeddings.lance/_transactions/7-10c729aa-0737-4aec-bf79-638b0b556abc.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/data/graphrag/output/20240911-163559/artifacts/lancedb/entity_description_embeddings.lance/data/4d21ad97-eb25-4491-913e-c6a633931f11.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/data/graphrag/output/20240911-163559/artifacts/lancedb/entity_description_embeddings.lance/data/d7165bb3-a535-48bc-b861-edc9a95e1b80.lance" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webclassify/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webclassify/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webclassify/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -29,6 +87,15 @@
       <change beforePath="$PROJECT_DIR$/../Job-Prep" beforeDir="false" afterPath="$PROJECT_DIR$/../Job-Prep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../github-demo-1" beforeDir="false" afterPath="$PROJECT_DIR$/../github-demo-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api_ollama.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api_ollama.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ollama_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ollama_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/app_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/graphrah_to_neo4j.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/graphrah_to_neo4j.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../llm-twin/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../llm-twin/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../localllama-db-chat/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../localllama-db-chat/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../localllama-db-chat/.idea/modules.xml" afterDir="false" />
@@ -62,7 +129,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -86,7 +153,7 @@
     "Python.wikipedia_api_request.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindow.Terminal.ShowToolbar": "false",
-    "git-widget-placeholder": "feature/ollama",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/royzalta/Documents/github-local/harry-potter-graphrag-hebrew/media",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -128,6 +195,7 @@
       <workItem from="1725622235273" duration="42727000" />
       <workItem from="1725784283417" duration="201000" />
       <workItem from="1725942065008" duration="21044000" />
+      <workItem from="1726114757712" duration="8631000" />
     </task>
     <servers />
   </component>

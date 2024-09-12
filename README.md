@@ -6,7 +6,10 @@
 
 This project focuses on extracting entities and their relationships from Hebrew text, specifically using a portion of the Harry Potter story. The goal is to use NLP techniques to identify entities such as characters, magical objects, places, events, and institutions from a given Hebrew text and to analyze relationships between those entities. The data is then stored in a Neo4j graph database for further analysis.
 
-<img src="media/app_screenshot.png" alt="chat ui" width="600"/>
+<div style="display: flex; justify-content: space-between;">
+  <img src="media/chat_global_search.png" alt="chat ui - global" width="45%"/>
+  <img src="media/chat_local_search.png" alt="chat ui - local" width="45%"/>
+</div>
 
 ## Project Stages
 ```mermaid
@@ -131,16 +134,23 @@ To run the notebook, execute the following command:
 ```bash
 jupyter notebook notebooks/txt_to_graphrag.ipynb
 ```
+7. Upload the GraphRAG artifacts to the Neo4j database
+To upload the GraphRAG artifacts to the Neo4j database, execute the following command (make sure Neo4j cluster is running):
+```bash
+jupyter notebook notebooks/graphrah_to_neo4j.ipynb
+```
+<img src="media/Bloom Visualization.png" alt="Neo4j Graph" width="600"/>
+
 ## Notes
 
 - Make sure Ollama is running and accessible at `http://localhost:11434` before starting the application.
 - Make sure LM Studio is running and accessible at `http://localhost:1234` before starting the application.
 
-7. install the app requirements:
+8. install the app requirements:
 ```bash
 pip install -r app/app_requirements.txt
 ```
-8. Running the Application - Open two terminal windows or tabs.
+9. Running the Application - Open two terminal windows or tabs.
 In the first terminal, start the API server:
 ```bash
 cd app
@@ -159,8 +169,23 @@ additionally, you can run the following command to run the API locally at : http
 after running the container you can see the graph visualisation at [GraphRAG Visualizer](https://noworneverev.github.io/graphrag-visualizer/)
 <img src="media/graphviz.png" alt="graph viz" width="600"/>
 
+## Future Work
+- Implement more robust Ollama wrapper for better handling of API requests and responses.
+- containerize the app and deploy it on a cloud platform.
+- improve the embeddings and the graph representation with more data and better models.
+- fact validation and question answering capabilities.
+- Testing and validation of the application.
+- CI/CD pipeline for automated testing and deployment.
+
 ## Prompts
 The prompts directory contains the text prompts used for entity extraction via NLP models. The entity_extraction_hebrew.txt prompt extracts entities and relationships from Hebrew text, which are then parsed and stored in the Parquet files.
+
+## Credits
+- [GraphRAG](https://github.com/microsoft/graphrag)
+- [Ollama](https://ollama.com/)
+- [LLM Studio](https://lmstudio.ai/)
+- [noworneverv Repo graphrag-api](https://github.com/noworneverev/graphrag-api)
+- [Mervin Praison - GraphRAG with OllAMA](https://mer.vin/2024/07/graphrag-ollama/)
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.

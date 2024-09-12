@@ -3,6 +3,7 @@ import asyncio
 from typing import List, Dict, Any
 import re
 
+
 class ChatOllama:
     def __init__(self, api_base, model, max_retries=20):
         self.api_base = api_base
@@ -11,14 +12,12 @@ class ChatOllama:
     
     async def achat(self, messages, **kwargs):
         try:
+            # Add instruction to respond in Hebrew
+            hebrew_instruction = {"role": "system", "content": "Please respond in Hebrew."}
+            messages = [hebrew_instruction] + messages
+            
             response = ollama.chat(model=self.model, messages=messages)
             content = response['message']['content']
-            
-            # Check if the query is in Hebrew
-            if self.is_hebrew(messages[-1]['content']):
-                # If the response is not in Hebrew, translate it
-                if not self.is_hebrew(content):
-                    content = self.translate_to_hebrew(content)
             
             return content
         except Exception as e:
@@ -27,21 +26,19 @@ class ChatOllama:
     
     async def agenerate(self, messages: List[Dict[str, Any]], **kwargs) -> Dict[str, Any]:
         try:
+            # Add instruction to respond in Hebrew
+            hebrew_instruction = {"role": "system", "content": "Please respond in Hebrew."}
+            messages = [hebrew_instruction] + messages
+            
             response = ollama.chat(model=self.model, messages=messages)
             content = response['message']['content']
-            
-            # Check if the query is in Hebrew
-            if self.is_hebrew(messages[-1]['content']):
-                # If the response is not in Hebrew, translate it
-                if not self.is_hebrew(content):
-                    content = self.translate_to_hebrew(content)
             
             return {
                     "choices": [
                             {
                                     "message": {
                                             "content": content,
-                                            "role": "assistant"
+                                            "role"   : "assistant"
                                     }
                             }
                     ]
@@ -54,12 +51,9 @@ class ChatOllama:
         # Simple check for Hebrew characters
         hebrew_pattern = re.compile(r'[\u0590-\u05FF\uFB1D-\uFB4F]')
         return bool(hebrew_pattern.search(text))
-    
-    def translate_to_hebrew(self, text):
-        # Implement translation to Hebrew here
-        # This is a placeholder - you'll need to use a translation service or library
-        print("Translation to Hebrew needed")
-        return text  # Return original text for now
+
+
+# Remove the translate_to_hebrew method as it's no longer needed
 
 class OllamaEmbedding:
     def __init__(self, api_base, model, max_retries=20):
