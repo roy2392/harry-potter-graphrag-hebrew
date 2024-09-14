@@ -57,7 +57,7 @@ async def local_search(query: str = Query(..., description="Search query for loc
             response_content = result.response.get('choices', [{}])[0].get('message', {}).get('content', '')
         else:
             response_content = str(result.response)
-        response_content = translate_to_hebrew(response_content)
+        # response_content = translate_to_hebrew(response_content)
         response_dict = {
             "response": response_content,
             "context_data": process_context_data(result.context_data),

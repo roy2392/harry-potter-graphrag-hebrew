@@ -158,6 +158,10 @@ cython_debug/
 *.xml
 *.xml.*
 *.xml~
+*.txn
+.txn
+*.txn.*
+*.txn~
 
 
 # PyCharm
